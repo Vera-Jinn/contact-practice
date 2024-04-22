@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>About</title>
+		<link rel="stylesheet" href="css/about_styles.css">
+	</head>
+	<body>
+		<div class="grid-container">
+			<div class="brand">Craft Market </div>
+			<div class="page-links">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="about-container">
+			<div class="title">
+				About the Craft Market!
+			</div>
+			<div class="content">
+				<div class="form">
+					<div id="about-item-1">
+						<h3 class="title1">Current Weather</h3>
+						<div><img src="img/weath.png" alt=""></div>
+						<div class="weatitle">
+							Temperature
+						</div>
+						<div class="weavalue" id="current_temperature">
+							210.7C
+						</div>
+						<div class="weatitle">
+							Wind Speed
+						</div>
+
+						<div class="weavalue" id="current_windspeed">
+							15.4kph
+						</div>
+
+					</div>
+					<div id="about-item-3">
+						<form id="subscribe-form">
+							<h5>Subscribe to our newsletters!</h5>
+							<label for="firstName">First Name:</label>
+							<input type="text" id="firstName" name="firstName" placeholder="Enter your first name"
+								required />
+							<label for="suburb">Suburb:</label>
+							<input type="text" id="suburb" name="suburb" placeholder="Enter your suburb" required />
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" placeholder="Enter your email address"
+								required />
+							<input type="submit"  value="Subscribe" id="subscribe-submit-button" />
+						</form>
+						<div id="responseMessage"></div>
+					</div>
+
+				</div>
+				<div class="right">
+					<H3>Organized by Family, Friends & Community</H3>
+
+					<p>The Bayside Heights Residences Craft Market Event is more than a gathering of
+						artists and craft enthusiasts; it is a manifestation of love, respect, and
+						empowerment organized by those closest to the residents of Bayside Heights
+						Residences - their family, friends, and community members.
+					</p>
+					<h3>Who We Are</h3>
+					<p>We are a passionate not-for-profit group of volunteers united by a shared belief in
+						the importance of recognizing and nurturing the independence, creativity, and
+						valuable contributions of our seniors. Comprised of family members, friends, and
+						fellow community members, our team understands the essence of the Bayside
+						Heights community and is dedicated to creating platforms where our older citizens
+						can shine.</p>
+					<h3>Our Mission</h3>
+					<p>Our mission extends beyond organizing a craft market. We aim to celebrate the
+						wisdom, skills, and artistry of the seniors at Bayside Heights Residences and local
+						artists, presenting them not as beneficiaries, but as the very heart and soul of our
+						community</p>
+				</div>
+			</div>
+		</div>
+
+
+	</body>
+	<script src="js/about_api.js"></script>
+</html>

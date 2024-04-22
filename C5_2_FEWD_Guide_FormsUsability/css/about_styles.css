@@ -1,0 +1,185 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+body {
+	background-color: rgb(242, 244, 239);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+	display: grid;
+	background: rgb(55, 159, 167);
+	padding: 10px;
+	grid-template-columns: auto auto;
+}
+
+.brand {
+	color: #fff;
+	font-size: 20px;
+	grid-column: 1/8;
+}
+
+.grid-container .page-links {
+	grid-column: 8/9;
+}
+
+.grid-container .page-links ul {
+	display: flex;
+}
+
+.grid-container .page-links ul li {
+	margin-right: 10px;
+}
+
+.grid-container .page-links ul li a {
+	display: inline-block;
+	padding: 5px 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.about-container {
+	width: 90%;
+	margin: auto;
+}
+
+.about-container .title {
+	color: rgb(55, 159, 167);
+	font-size: 24px;
+	margin: 2rem 0;
+}
+
+.main {
+	width: 75%;
+	float: right;
+	overflow: hidden;
+	background-color: rgb(242, 244, 239);
+}
+
+#about-item-1 {
+	text-align: center;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+}
+
+#about-item-3 {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+}
+
+#about-item-3 h5 {
+	color: #000;
+	font-size: 18px;
+	margin-bottom: 1rem
+}
+
+#about-item-1 .title1 {
+	font-weight: 600;
+	margin: 1rem 0;
+}
+
+.weatitle {
+	margin: 1.5rem 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+.weavalue {
+	margin: 10px 0;
+	font-size: 22px;
+	color: rgb(55, 159, 167);
+}
+
+.content {
+	display: flex;
+}
+
+.form {
+	width: 40%;
+}
+
+.right {
+	width: 60%;
+	padding:0 40px;
+}
+
+.right h3 {
+	margin:  1rem 0;
+}
+
+.right p {
+	line-height: 2;
+}
+
+#subscribe-form {
+	width: 90%;
+	padding: 5%;
+}
+
+#subscribe-form>label {
+	display: block;
+	font-size: 0.8em;
+	margin-bottom: 0.5em;
+}
+
+#subscribe-form>input {
+	display: block;
+	width: 80%;
+	margin-bottom: 1rem;
+	padding: .375rem .75rem;
+	font-size: 0.8rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#subscribe-form>input:focus {
+	border-color: #80bdff;
+	outline: 0;
+	box-shadow: 0 0 0.2rem □rgba(0, 123, 255, .25);
+}
+
+#subscribe-form>input[type="email"]:valid {
+	border: 2px solid green;
+}
+
+#subscribe-form>input[type="email"]:invalid {
+	border: 2px solid red;
+}
+
+#subscribe-submit-button {
+	background-color: grey;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+}
+
+#subscribe-submit-button.disabled {
+	background-color: grey;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+}
+
+#subscribe-submit-button.enabled {
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
